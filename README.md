@@ -2,8 +2,8 @@
 
 ## Versions
 
-* gitlab/gitlab-runner - v13.6.0
-* docker-machine-driver-hetzner - 3.0.0
+* gitlab/gitlab-runner - v13.10.0
+* docker-machine-driver-hetzner - 3.3.0
 
 ## Usage
 
