@@ -11,5 +11,5 @@ RUN wget https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releas
  && tar xf docker-machine-driver-hetzner_${DMD_HETZNER_VERSION}_linux_amd64.tar.gz \
  && chmod +x docker-machine-driver-hetzner
 
-FROM gitlab/gitlab-runner:v13.10.0
+FROM gitlab/gitlab-runner:v13.11.0
 COPY --from=builder /build/docker-machine-driver-hetzner /usr/bin

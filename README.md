@@ -2,7 +2,7 @@
 
 ## Versions
 
-* gitlab/gitlab-runner - v13.10.0
+* gitlab/gitlab-runner - v13.11.0
 * docker-machine-driver-hetzner - 3.3.0
 
 ## Usage
@@ -52,6 +52,7 @@ check_interval = 0
         "hetzner-api-token=$HETZNER_API_TOKEN",
         "hetzner-image=ubuntu-20.04",
         "hetzner-server-type=cpx41",
+        "engine-install-url=https://releases.rancher.com/install-docker/19.03.9.sh" # Related https://github.com/docker/machine/issues/4858
     ]
     [[runners.machine.autoscaling]]
       Periods = ["* * 8-18 * * mon-fri *"]
